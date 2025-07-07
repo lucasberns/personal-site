@@ -9,21 +9,60 @@
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"    />
+    <link rel="stylesheet" href="/source/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
     <main>
-        <div class="container-fluid">
+        
         <div class="position-absolute top-0 end-0">
-            <nav class="nav nav-pills nav-fill">
-                <a class="nav-link active" aria-current="page" href="#" >Home</a>
-                <a class="nav-link" href="#">Curriculo</a>
-                <a class="nav-link" href="#">Contato</a>
-            </nav>
-        </div>
+            <div class="row align-items-md-stretch" style="margin-right: 100px; margin-top: 50px;">
+                <nav class="nav nav-pills nav-fill" style="color: white;">
+                    <a class="nav-link active" style="color: black; background-color: white; font-family: 'Mulish', serif; font-weight: 800;" aria-current="page" href="/source/index.html " >Home</a>
+                    <a class="nav-link" style="color: white; font-family: 'Mulish', serif; font-weight: 500; margin-left: 30px;" href="#">Curriculo</a>
+                    <a class="nav-link" style="color: white; font-family: 'Mulish', serif; font-weight: 500; margin-left: 30px;" href="#">Contato</a>
+                </nav>
+            </div>
         </div>
         
         <div class="position-absolute top-50 start-50 translate-middle">
-            <h1 class="fs-1">Lucas Alexandre</h1>
+            <h1 class="display-1" style="font-family: 'Mulish', serif; font-weight: 800;">Lucas Alexandre</h1>
+            <h1>SQL | Java | Python</h1>
+            <a href="https://www.linkedin.com/in/lucasberns/" target="_blank">
+                <img
+                  src="/images/linkedin.png"
+                  class="rounded float-end"
+                  width="50"
+                  height="50"
+                  alt="LinkedIn"
+              /></a>
+            <a href="https://github.com/lucasberns" target="_blank">
+                <img
+                  src="/images/github.png"
+                  class="rounded float-end"
+                  width="50"
+                  height="50"
+                  alt="GitHub"
+              /></a>
+            
+        </div>
+
+        <div class="position-absolute top-100 start-0 translate-botton" style="margin-top: 20px; margin-left: 300px;">
+            <div class="col-md-4">
+                <h1>Sobre mim</h1>
+                <p>
+                Estudante no curso de Ciência da Computação no Instituto Federal, com inglês fluente certificado após uma
+                enriquecedora experiência de intercâmbio em Londres no ano de 2023.
+                Sempre em busca de desafios e de oportunidades para crescimento, estou aprimorando
+                meus conhecimentos para mudar o mundo com dados.
+                </p>
+            </div>
+        </div>
+    
+        <div class="position-absolute top-100 end-0 translate-botton" style="margin-top: 20px; margin-right: 300px;">
+            <img src="/images/eu.png" class="rounded float-start" width="250" height="250" alt="Imagem_Lucas"/>
         </div>
     </main>
 </body>
