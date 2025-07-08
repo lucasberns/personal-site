@@ -1,100 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Meu Portfólio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lucas portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="/source/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <style>
     section {
-      padding: 100px 0;
-    }
-    #home {
-      background-color: #000;
-      color: white;
-    }
-    #sobre {
-      background-color: #f8f9fa;
-    }
-    #projetos {
-      background-color: #e9ecef;
+      padding: 200px 0;
     }
     #contato {
-      background-color: #dee2e6;
+      background-color: rgb(12, 12, 12);
     }
-  </style>
+    </style>
 </head>
 <body>
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg nav-pills nav-fill fixed-top">
     <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="nav nav-pills ms-auto" style="color: white;">
-          <li class="nav-item"><a style="color: black; background-color: white; font-family: 'Mulish', serif; font-weight: 800;" class="nav-link active" href="/source/home.html">Início</a></li>
-          <li class="nav-item"><a style="color: white; font-family: 'Mulish', serif; font-weight: 500;" class="nav-link" class="nav-link" href="#">Projetos</a></li>
-          <li class="nav-item"><a style="color: white; font-family: 'Mulish', serif; font-weight: 500;" class="nav-link" href="#">Contato</a></li>
-        </ul>
-      </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav" style="margin-top: 20px;">
+            <ul class="nav nav-pills ms-auto" style="color: white;">
+            <li class="nav-item"><a style="color: white; font-family: 'Mulish', serif; font-weight: 500;" class="nav-link" href="/source/home.html">Home</a></li>
+            <li class="nav-item"><a style="color: white; font-family: 'Mulish', serif; font-weight: 500;" class="nav-link" href="/source/curriculo.html">Currículo</a></li>
+            <li class="nav-item"><a style="color: black; background-color: white; font-family: 'Mulish', serif; font-weight: 800;" class="nav-link active" href="#">Contato</a></li>
+            </ul>
+        </div>
     </div>
   </nav>
 
-  <!-- Seção Home -->
-  <section id="home">
-    <div class="container text-center">
-      <h1>Bem-vindo ao meu portfólio</h1>
-      <p>Desenvolvedor Web | Front-End | Criativo</p>
-    </div>
-  </section>
-
-  <!-- Seção Sobre -->
-  <section id="sobre">
-    <div class="container">
-      <h2 class="text-center">Sobre Mim</h2>
-      <p>Sou um desenvolvedor apaixonado por criar interfaces modernas e responsivas...</p>
-    </div>
-  </section>
-
-  <!-- Seção Projetos -->
-  <section id="projetos">
-    <div class="container">
-      <h2 class="text-center">Meus Projetos</h2>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card mb-4">
-            <div class="card-body">
-              <h5 class="card-title">Projeto 1</h5>
-              <p class="card-text">Descrição do projeto.</p>
-            </div>
-          </div>
-        </div>
-        <!-- Repita os blocos para mais projetos -->
-      </div>
-    </div>
-  </section>
 
   <!-- Seção Contato -->
   <section id="contato">
     <div class="container">
-      <h2 class="text-center">Fale Comigo</h2>
+    <div class="row align-items-center">
+
+      <h1 class="text-center display-4" style="font-family: 'Mulish', serif; font-weight: 800; margin-bottom: 100px;">Entre em Contato</h1>
+      
+      <div class="col-md-6">
+        <h4 class="text-start mb-4" style="font-family: 'Mulish', serif; font-weight: 800;">Informação de Contato</h4>
+        <h5 class="text-start" style="color: rgb(207, 207, 207); margin-bottom: 40px;">
+          E-mail: lucas.alexandre.berns.oliveira@gmail.com
+        </h5>
+        <h4 class="text-start mb-4" style="font-family: 'Mulish', serif; font-weight: 800;">Conecte-se Comigo!</h4>
+        <a href="https://www.linkedin.com/in/lucasberns/" target="_blank">
+          <img
+            src="/images/linkedin.png"
+            class="rounded float-center"
+            width="50"
+            height="50"
+            alt="LinkedIn"/></a>
+        <a href="https://github.com/lucasberns" target="_blank">
+          <img
+            src="/images/github.png"
+            class="rounded float-center"
+            width="50"
+            height="50"
+            alt="GitHub"/></a>
+      </div>
+
+      
+
+      <div class="col-md-6">
+      <h4 class="text-start mb-4 mt-4 mt-md-0" style="font-family: 'Mulish', serif; font-weight: 800;">Envie uma Mensagem</h4>
       <form>
         <div class="mb-3">
-          <label for="nome" class="form-label">Nome</label>
+          <label for="nome" class="form-label" style="font-family: 'Mulish', serif; font-weight: 500;">Nome</label>
           <input type="text" class="form-control" id="nome">
         </div>
         <div class="mb-3">
-          <label for="email" class="form-label">E-mail</label>
+          <label for="email" class="form-label" style="font-family: 'Mulish', serif; font-weight: 500;">E-mail</label>
           <input type="email" class="form-control" id="email">
         </div>
         <div class="mb-3">
-          <label for="mensagem" class="form-label">Mensagem</label>
+          <label for="mensagem" class="form-label" style="font-family: 'Mulish', serif; font-weight: 500;">Mensagem</label>
           <textarea class="form-control" id="mensagem" rows="4"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" style="font-family: 'Mulish', serif; font-weight: 700;" class="btn btn-light">Enviar</button>
       </form>
+    </div>
+    </div>
     </div>
   </section>
 
