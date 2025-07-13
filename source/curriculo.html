@@ -3,37 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Lucas portfolio</title>
+    <title>Curriculo</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png">
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous">
-    <link rel="stylesheet" href="/source/css/style.css">
+    <link rel="stylesheet" href="/source/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-    <style>
-    section {
-      padding: 200px 0;
-    }
-    #curriculo_title {
-      background-color: rgb(12, 12, 12);
-    }
-    #sobre {
-      background-color: rgb(12, 12, 12);
-    }
-    #experiencia {
-      background-color: rgb(12, 12, 12);
-    }
-    #projetos {
-      background-color: rgb(12, 12, 12);
-    }
-    #spacer{
-      background-color: rgb(12, 12, 12);
-      padding: 100px 0;
-    }
-    </style>
 </head>
 <body>
     <main>
@@ -46,9 +26,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav" style="margin-top: 20px;">
                 <ul class="nav nav-pills ms-auto" style="color: white;">
-                <li class="nav-item"><a style="color: white; font-family: 'Mulish', serif; font-weight: 500;" class="nav-link" href="/source/home.html">Home</a></li>
-                <li class="nav-item"><a style="color: black; background-color: white; font-family: 'Mulish', serif; font-weight: 800;" class="nav-link active" href="#">Currículo</a></li>
-                <li class="nav-item"><a style="color: white; font-family: 'Mulish', serif; font-weight: 500;" class="nav-link" href="/source/contact.html">Contato</a></li>
+                <li class="nav-item"><a style="color: white;" class="nav-link Muslish500" href="/source/home.html">Home</a></li>
+                <li class="nav-item"><a style="color: black; background-color: white;" class="nav-link active Muslish800" href="#">Currículo</a></li>
+                <li class="nav-item"><a style="color: white;" class="nav-link Muslish500" href="/source/contact.html">Contato</a></li>
                 </ul>
             </div>
         </div>
@@ -57,17 +37,30 @@
     <section id="experiencia">
       
         <div class="container">
-          <h1 class="text-center display-4" style="font-family: 'Mulish', serif; font-weight: 800; margin-bottom: 200px;">Experiência</h1>
+          <h1 class="text-center display-4 animado Muslish800" style="margin-bottom: 100px;">Currículo</h1>
+          <div class="row align-items-start">
+                <div class="col-md-6">
+                    <h4 class="text-end mb-4 Muslish800">Curriculum Vitae</h4>
+                    <a href="/files/Curriculo_Lucas.pdf" download class="btn btn-outline-light float-end mb-4 Muslish500">Baixar Currículo</a>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-start mb-4 Muslish300">
+                      Neste currículo, você encontrará informações sobre minha formação acadêmica, experiências profissionais e cursos que realizei.
+                    </h5>
+                </div>
+          </div>
+                <section id="spacer"></section>
+          <h2 class="text-center display-4 Muslish800" style="margin-bottom: 200px;">Experiência</h2>
             <div class="row align-items-center">
 
                 <div class="col-md-6">
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 800;">Estágio Suporte em Informática</h4>
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">TJSC</h4>
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">2 0 2 5</h4>
+                    <h4 class="text-end mb-4 Muslish800">Estágio Suporte em Informática</h4>
+                    <h4 class="text-end mb-4 Muslish500">TJSC</h4>
+                    <h4 class="text-end mb-4 Muslish500">2 0 2 5</h4>
                     <img src="/images/tjsc.png" class="rounded-circle float-end" width="40" height="40" alt="TJSC Logo"/>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-start mb-4" style="font-family: 'Mulish', serif; font-weight: 300;">
+                    <h5 class="text-start mb-4 Muslish300">
                       Ingressei no Tribunal de Justiça de Santa Catarina na comarca de Lages como Estagiário Voluntário
                       onde tive a oportunidade de atuar no suporte técnico, auxiliando na resolução de problemas relacionados
                       a hardware e software.
@@ -77,31 +70,44 @@
 
             <section id="spacer"></section>
 
-            <h1 class="text-center display-4" style="font-family: 'Mulish', serif; font-weight: 800; margin-bottom: 200px;">Formação</h1>
+            <h2 class="text-center display-4 Muslish800" style="margin-bottom: 200px;">Formação</h2>
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 800;">Bacharel Ciência da Computação</h4>
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">IFSC</h4>
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">2 0 2 5</h4>
+                    <h4 class="text-end mb-4 Muslish800">Bacharel Ciência da Computação</h4>
+                    <h4 class="text-end mb-4 Muslish500">IFSC</h4>
+                    <h4 class="text-end mb-4 Muslish500">2 0 2 5</h4>
                     <img src="/images/ifsc.png" class="rounded-circle float-end" width="40" height="40" alt="IFSC Logo"/>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-start mb-4" style="font-family: 'Mulish', serif; font-weight: 300;">
+                    <h5 class="text-start mb-4 Muslish300">
                       Atualmente estou cursando Bacharel em Ciência da Computação no Instituto Federal de Santa Catarina (IFSC),
                       onde tenho adquirido conhecimentos sólidos em programação, algoritmos e desenvolvimento de software.
                     </h5>
                 </div>
                 <section id="spacer"></section>
                 <div class="col-md-6">
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 800;">Ensino Médio</h4>
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Escola SESI</h4>
-                    <h4 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">2 0 2 4</h4>
+                    <h4 class="text-end mb-4 Muslish800">Ensino Médio</h4>
+                    <h4 class="text-end mb-4 Muslish500">Escola SESI</h4>
+                    <h4 class="text-end mb-4 Muslish500">2 0 2 4</h4>
                     <img src="/images/sesi.png" class="rounded-circle float-end" width="40" height="40" alt="SESI Logo"/>
                 </div>
                 <div class="col-md-4">
-                    <h5 class="text-start mb-4" style="font-family: 'Mulish', serif; font-weight: 300;">
+                    <h5 class="text-start mb-4 Muslish300">
                       Concluí o Ensino Médio na Escola SESI, onde desenvolvi habilidades essenciais em diversas disciplinas,
                       incluindo matemática, ciências e linguagens, preparando-me para os desafios acadêmicos e profissionais futuros.
+                    </h5>
+                </div>
+                <section id="spacer"></section>
+                <div class="col-md-6">
+                    <h4 class="text-end mb-4 Muslish800">Curso Inglês Nivel C1</h4>
+                    <h4 class="text-end mb-4 Muslish500">EF International Language Campuses</h4>
+                    <h4 class="text-end mb-4 Muslish500">2 0 2 3</h4>
+                    <img src="/images/ef.png" class="rounded-circle float-end" width="40" height="40" alt="SESI Logo"/>
+                </div>
+                <div class="col-md-4">
+                    <h5 class="text-start mb-4 Muslish300">
+                      Concluí o curso de inglês nível C1 durante um intercâmbio, onde aperfeiçoei minhas habilidades
+                      de comunicação em inglês, incluindo leitura, escrita, fala e compreensão auditiva, preparando-me para um ambiente global.
                     </h5>
                 </div>
             </div>
@@ -110,44 +116,18 @@
           
           
           <div class="container">
-            <h1 class="text-center display-4" style="font-family: 'Mulish', serif; font-weight: 800; margin-bottom: 200px;">Cursos</h1>
+            <h2 class="text-center display-4 Muslish800" style="margin-bottom: 200px;">Cursos</h2>
             <div class="row align-items-center">
 
             <div class="col-md-4">
               <div class="h-100 p-5 border rounded-2" style="color: white;">
-                <h3 class="text-end" style="font-family: 'Mulish', serif; font-weight: 800;">Python Fundamentals</h3>
-                <h5 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Digital Inovation One</h5>
+                <h3 class="text-end Muslish800">Python Fundamentals</h3>
+                <h5 class="text-end mb-4 Muslish500">Digital Inovation One</h5>
                 <a href="https://www.dio.me/certificate/1B0A2F8C" target="_blank">
-                  <h5 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Ver Certificado ↗</h5>
+                  <h5 class="text-end mb-4 Muslish500">Ver Certificado ↗</h5>
                 </a>
                 <div class="d-flex float-end align-items-center mb-4">
                   <img src="/images/python.png" width="20" height="20" alt="Python" title="Python" class="me-2">
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="h-100 p-5 border rounded-2" style="color: white;">
-                <h3 class="text-end" style="font-family: 'Mulish', serif; font-weight: 800;">Machine Learning Specialist</h3>
-                <h5 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Digital Inovation One</h5>
-                <a href="https://www.dio.me/certificate/1B0A2F8C" target="_blank">
-                  <h5 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Ver Certificado ↗</h5>
-                </a>
-                <div class="d-flex float-end align-items-center mb-4">
-                  <img src="/images/python.png" width="20" height="20" alt="Python" title="Python" class="me-2">
-                </div>
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="h-100 p-5 border rounded-2" style="color: white;">
-                <h3 class="text-end" style="font-family: 'Mulish', serif; font-weight: 800;">SQL Database Specialist</h3>
-                <h5 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Digital Inovation One</h5>
-                <a href="https://www.dio.me/certificate/1B0A2F8C" target="_blank">
-                  <h5 class="text-end mb-4" style="font-family: 'Mulish', serif; font-weight: 500;">Ver Certificado ↗</h5>
-                </a>
-                <div class="d-flex float-end align-items-center mb-4">
-                  <img src="/images/sql.png" width="20" height="20" alt="Python" title="Python" class="me-2">
                 </div>
               </div>
             </div>

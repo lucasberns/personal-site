@@ -1,0 +1,68 @@
+.Muslish800 {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+.Muslish500 {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+.Muslish300 {
+    font-family: "Mulish", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+  section {
+      padding: 200px 0;
+    }
+    #curriculo_title {
+      background-color: rgb(12, 12, 12);
+    }
+    #sobre {
+      background-color: rgb(12, 12, 12);
+    }
+    #experiencia {
+      background-color: rgb(12, 12, 12);
+    }
+    #projetos {
+      background-color: rgb(12, 12, 12);
+    }
+    #contato {
+      background-color: rgb(12, 12, 12);
+    }
+    #home {
+      background-color: rgb(12, 12, 12);
+      padding: 400px 0
+    }
+    #sobre {
+      background-color: rgb(12, 12, 12);
+    }
+    #areas-interesse {
+      background-color: rgb(12, 12, 12);
+    }
+    #Projetos {
+      background-color: rgb(12, 12, 12);
+    }
+    #spacer{
+      background-color: rgb(12, 12, 12);
+      padding: 100px 0;
+    }
+    .animado {
+      opacity: 1;
+      transform: translateY(0);
+      animation: bounceFadeIn 2s ease-out forwards;
+    }
+
+    @keyframes bounceFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    }
